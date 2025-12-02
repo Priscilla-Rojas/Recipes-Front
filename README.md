@@ -49,7 +49,7 @@ Recipes/
 ---
 | Home | Listado de Recetas | Detalle Receta | Crear Receta |
 |------|-----------------|----------------|-------------|
-| ![Home](./img/home.png) | ![Listado](./img/index.png) | ![Detalle](./img/detail.png) | ![Crear](./img/create.png) |
+| ![Home](./src/assets/img/home.png) | ![Listado](./src/assets/img/index.png) | ![Detalle](./src/assets/img/detail.png) | ![Crear](./src/assets/img/create.png) |
 ---
 > Navegación intuitiva, filtros interactivos y CRUD completo.
 
