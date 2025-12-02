@@ -102,7 +102,7 @@ npm test
 ## ⚙️ Instalación y Ejecución
 
 ### 1️⃣ Clonar repositorio
-git clone https://github.com/Priscilla-Rojas/Recipes.git
+    git clone https://github.com/Priscilla-Rojas/Recipes-Front.git
 ### 2️⃣ Instalar dependencias
 #### Backend
 cd Recipes/api
