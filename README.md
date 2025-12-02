@@ -66,15 +66,7 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
     npm install
     ```
 
-3.  **Configuración de Variables de Entorno:**
-    Asegúrate de que la aplicación apunte a la API correcta.
-    *(Si usas un archivo .env, explica aquí cómo configurarlo. Si tienes la URL hardcodeada en un archivo de configuración, indícalo).*
-    Ejemplo: Crea un archivo `.env` y agrega:
-    ```env
-    REACT_APP_API_URL=http://localhost:3001
-    ```
-
-4.  **Iniciar la aplicación:**
+3.  **Iniciar la aplicación:**
     ```bash
     npm start
     ```
