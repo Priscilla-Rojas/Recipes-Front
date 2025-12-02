@@ -97,7 +97,7 @@ Los tests cubren:
 
 Desde la carpeta `api/`:
 
-npm test
+    npm test
 
 ## ⚙️ Instalación y Ejecución
 
@@ -105,12 +105,12 @@ npm test
     git clone https://github.com/Priscilla-Rojas/Recipes-Front.git
 ### 2️⃣ Instalar dependencias
 #### Backend
-cd Recipes/api
-npm install
+    cd Recipes/api
+    npm install
 
 #### Frontend
-cd ../client
-npm install
+    cd ../client
+    npm install
 
 ### 3️⃣ Configurar variables de entorno
 
@@ -125,12 +125,12 @@ npm install
 
 ### 4️⃣ Ejecutar la aplicación
 ##### Backend
-cd api
-npm start
+    cd api
+    npm start
 
 ##### Frontend
-cd client
-npm start
+    cd client
+    npm start
 
 La app estará disponible en http://localhost:3000 .
 Conectada al backend en http://localhost:3001.
