@@ -24,7 +24,7 @@ Puedes ver la aplicación funcionando aquí:
 ![Landing Page](./src/assets/img/home.png)
 *Vista de la Landing Page*
 
-![Home Page](./src/assets/img/ind.png)
+![Home Page](./src/assets/img/index.png)
 *Vista principal con listado de recetas y paginado*
 
 ![Create Page](./src/assets/img/create.png)
