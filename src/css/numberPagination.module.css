@@ -1,0 +1,42 @@
+@import url(./variable.css);
+.nav{
+  width: max-content;
+  margin: 10px auto;
+}
+.nav a,
+.nav button{ 
+  margin: 0 2px;
+  text-decoration: none;
+  font-family: var(--txt-family);
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: none;
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 2px 5px;
+  background-color: var(--bg-color);
+  color: white;
+  text-align: center;
+}
+.nav .activo{
+  background-color: var(--txt-color-hover);
+  color: vat(--txt-color);
+  border: 1px solid white;
+}
+.nextPrev{
+  border: 2px solid rgba(177, 175, 175, 0.623);
+}
+.next{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.prev{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.next:disabled,
+.prev:disabled{
+  border-color: rgba(177, 175, 175, 0.623);
+  color: rgba(116, 113, 113, 0.65);
+  background-color: transparent;
+}

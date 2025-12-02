@@ -1,0 +1,40 @@
+.contaier{
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+  background-image: url(../assets/img/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+.main{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.containerLoader{
+  width: 90%;
+  height: 75vh;
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.253);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+.containerLoader .img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.containerLoader h2{
+  margin: 0 auto;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: -1px 3px 4px black;
+  font-size: 2rem;
+}

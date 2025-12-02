@@ -1,0 +1,91 @@
+.main{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../assets/img/recetas.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container,
+.containerLoader{
+  
+  width: 90%;
+  max-width: 1200px;
+  height: 80vh;
+  overflow-y: scroll;
+  margin: 10px auto;
+  padding: 10px;
+
+  background-color: rgba(20, 20, 20, 0.452);
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containerLoader{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+.containerLoader h2{
+  margin: 0 auto;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: -1px 3px 4px black;
+  font-size: 2rem;
+}
+.containerLoader .img{
+  width: 300px;
+  height: 250px;
+  /* margin: 0 auto; */
+  object-fit: cover;
+}
+.container h2{
+  width: 100%;
+  text-align: center;
+  font-size: 2rem ;
+}
+
+
+.container section{
+  width: 80%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+.container figure{
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+}
+.container figure img{
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+}
+.container section a{
+  color: white;
+  text-decoration: none;
+}
+.container p{
+  margin: 5px;
+}
+.container::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.container::-webkit-scrollbar:vertical {
+  width:7px;
+}
+.container::-webkit-scrollbar-button:increment,.container::-webkit-scrollbar-button {
+  display: none;
+} 
+.container::-webkit-scrollbar-thumb {
+  background-color: #747474;
+  border-radius: 20px;
+  border: 3px solid rgba(3, 3, 3, 0.712);;
+}
+
+.container::-webkit-scrollbar-track {
+  border-radius: 5px;  
+}
