@@ -1,25 +1,30 @@
-# 🍲 Recipes Web App - Frontend
+# 🍲 Food Recipes – Frontend (Client)
 
-¡Bienvenido al repositorio del Cliente (Frontend) de mi aplicación de Recetas!
+![React](https://img.shields.io/badge/React-18-blue)
+![Redux](https://img.shields.io/badge/Redux-Toolkit-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![CSS](https://img.shields.io/badge/CSS3-Modules-orange)
+![Axios](https://img.shields.io/badge/Axios-HTTP-lightgrey)
 
-Este proyecto es una Single Page Application (SPA) diseñada para buscar, filtrar, ordenar y crear recetas de cocina. Consume datos de una API externa y una base de datos propia, ofreciendo una experiencia de usuario fluida e interactiva.
+Aplicación web (SPA) diseñada para explorar el mundo culinario. Este cliente consume la API REST del proyecto para visualizar recetas, aplicar filtros combinados y gestionar la creación de nuevo contenido.
+Se enfoca en una experiencia de usuario (UX) fluida y un diseño responsivo.
 
-> **Nota importante:** Este repositorio contiene únicamente el código del **Frontend**.
-> El código del **Backend (API)** se encuentra en el siguiente repositorio:
+> **Nota de Arquitectura:** Este repositorio contiene el código del **Frontend**.
+> El Backend (API) necesario para su funcionamiento se encuentra aquí:
 > 👉 [**Recipes API Repository**](https://github.com/Priscilla-Rojas/Recipes-Api)
 
 <!-- ## 🚀 Despliegue (Deploy)
 
 Puedes ver la aplicación funcionando aquí:
-🔗 **[Link a deploy en Vercel/Netlify]** -->
-
+🔗 **[Link a tu deploy en Vercel/Netlify]**
+*(Si aún no lo tienes desplegado, puedes borrar esta sección).* -->
 
 ## 🖼️ Capturas de Pantalla
 
 ![Landing Page](./src/assets/img/home.png)
 *Vista de la Landing Page*
 
-![Home Page](./src/assets/img/index.png)
+![Home Page](./src/assets/img/ind.png)
 *Vista principal con listado de recetas y paginado*
 
 ![Create Page](./src/assets/img/create.png)
@@ -31,7 +36,7 @@ El frontend fue construido utilizando las siguientes tecnologías y librerías:
 
 * **React**: Construcción de componentes e interfaz de usuario.
 * **Redux**: Manejo del estado global (store) para recetas, filtros y ordenamientos.
-* **CSS Modules**: Módulos CSS para el diseño visual.
+* **CSS Modules / Styled Components**: [Aclara aquí qué usaste para los estilos] para el diseño visual.
 * **Axios / Fetch**: Para realizar las peticiones HTTP a la API.
 
 ## ✨ Funcionalidades
@@ -61,7 +66,15 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
     npm install
     ```
 
-3.  **Iniciar la aplicación:**
+3.  **Configuración de Variables de Entorno:**
+    Asegúrate de que la aplicación apunte a la API correcta.
+    *(Si usas un archivo .env, explica aquí cómo configurarlo. Si tienes la URL hardcodeada en un archivo de configuración, indícalo).*
+    Ejemplo: Crea un archivo `.env` y agrega:
+    ```env
+    REACT_APP_API_URL=http://localhost:3001
+    ```
+
+4.  **Iniciar la aplicación:**
     ```bash
     npm start
     ```
@@ -69,8 +82,32 @@ Sigue estos pasos para correr el proyecto en tu máquina local:
 
 ---
 
-### 📬 Contacto
+## 📂 Estructura del proyecto
+```
+client/
+├── public/          # Assets estáticos
+├── src/
+│   ├── components/  # Componentes reutilizables (Cards, Nav, etc.)
+│   ├── views/       # Vistas principales (Home, Landing, Form)
+│   ├── redux/       # Actions y Reducers (Store)
+│   ├── styles/      # Módulos CSS / Estilos globales
+│   └── App.js       # Rutas y renderizado principal
+└── package.json
+```
+## 🔄 Flujo de Datos
 
-Si tienes alguna sugerencia o quieres contactarme:
-**Priscilla Rojas**
-[[LinkedIn](https://www.linkedin.com/in/priscilla-k-rojas/)] | [[Email](mailto:priscilla.k.rojas@hotmail.com)]
+User Interaction ↔ React Components ↔ Redux Actions ↔ Axios ↔ API Backend
+
+## 👩‍💻 Mi rol y responsabilidades
+* Diseño y arquitectura de componentes (React).
+* Implementación del ciclo de vida de la aplicación.
+* Gestión del estado asíncrono y síncrono (Redux).
+* Validaciones de formularios y UX.
+* Consumo de servicios REST.
+* Diseño visual (CSS puro/Modules).
+* Diseño visual (CSS puro/Modules).
+
+## 📬 Contacto
+Priscilla Rojas 
+🔗[LinkedIn](https://www.linkedin.com/in/priscilla-k-rojas/)
+📫[Mail](priscilla.k.rojas@hotmail.com)
