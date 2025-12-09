@@ -39,7 +39,7 @@ function DetailRecipe({recipeDetail, detailRecipe}){
         <section>
           <h3>Type Diet: </h3>
           <p>{recipeDetail.TypeDiets ? recipeDetail.TypeDiets.map( diet => diet.name).join(', ') : recipeDetail.diets.join(', ')}</p>
-          <h3>Recipe Score: <span> {recipeDetail.spoonacularScore} 🌟</span></h3>
+          <h3>Recipe Score: <span> {parseInt(recipeDetail.spoonacularScore)} 🌟</span></h3>
           <h3>Healthy food score: <span>{recipeDetail.healthScore} ❤️</span></h3>
           <h3>Summary:</h3>
           {
