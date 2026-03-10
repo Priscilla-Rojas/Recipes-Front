@@ -16,8 +16,7 @@ Se enfoca en una experiencia de usuario (UX) fluida y un diseño responsivo.
 <!-- ## 🚀 Despliegue (Deploy)
 
 Puedes ver la aplicación funcionando aquí:
-🔗 **[Link a tu deploy en Vercel/Netlify]**
-*(Si aún no lo tienes desplegado, puedes borrar esta sección).* -->
+🔗 **[Link a deploy en Vercel/Netlify]** -->
 
 ## 🖼️ Capturas de Pantalla
 
@@ -36,7 +35,6 @@ El frontend fue construido utilizando las siguientes tecnologías y librerías:
 
 * **React**: Construcción de componentes e interfaz de usuario.
 * **Redux**: Manejo del estado global (store) para recetas, filtros y ordenamientos.
-* **CSS Modules / Styled Components**: [Aclara aquí qué usaste para los estilos] para el diseño visual.
 * **Axios / Fetch**: Para realizar las peticiones HTTP a la API.
 
 ## ✨ Funcionalidades
